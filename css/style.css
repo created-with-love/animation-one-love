@@ -1,0 +1,200 @@
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 30px;
+  color: #91076e;
+}
+
+pre::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+body {
+  background-image: url(../img/63387cb1de6ecf1b8bea37fec28df8f2.jpg);
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+pre {
+  display: inline-block;
+  width: fit-content;
+
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #3f51b5;
+  font-size: 14px;
+  transform: rotate(720deg);
+  transition: 2.5s;
+}
+
+section {
+  border: 2px solid #03081f;
+  border-radius: 12px;
+
+  -webkit-box-shadow: 10px 12px 18px -5px rgba(26, 20, 26, 1);
+  -moz-box-shadow: 10px 12px 18px -5px rgba(26, 20, 26, 1);
+  box-shadow: 10px 12px 18px -5px rgba(26, 20, 26, 1);
+}
+.poem {
+  background-image: linear-gradient(
+    to top right,
+    rgb(49, 82, 191),
+    rgb(66, 94, 182),
+    rgb(82, 105, 173),
+    rgb(99, 117, 164),
+    rgb(116, 129, 155),
+    rgb(132, 141, 146),
+    rgb(149, 152, 138),
+    rgb(165, 164, 129),
+    rgb(182, 176, 120),
+    rgb(199, 188, 111),
+    rgb(215, 199, 102),
+    rgb(232, 211, 93)
+  );
+
+  opacity: 0.9;
+  transition: 3s;
+  transform: scale(0.9);
+  width: min-content;
+}
+
+.poem pre {
+  color: #0b1608;
+}
+
+.second-poem {
+  background-image: linear-gradient(
+    to top right,
+    rgb(217, 162, 43),
+    rgb(204, 161, 42),
+    rgb(190, 159, 41),
+    rgb(177, 158, 39),
+    rgb(164, 157, 38),
+    rgb(151, 156, 37),
+    rgb(137, 154, 36),
+    rgb(124, 153, 35),
+    rgb(111, 152, 34),
+    rgb(98, 151, 32),
+    rgb(84, 149, 31),
+    rgb(71, 148, 30)
+  );
+  opacity: 0.9;
+  transition: 3s;
+  /* transform: scale(0.9); */
+  transform: rotate(360deg);
+  width: min-content;
+}
+
+.third-poem {
+  background-image: linear-gradient(
+    to right,
+    rgb(36, 41, 199),
+    rgb(36, 48, 187),
+    rgb(37, 56, 174),
+    rgb(37, 63, 162),
+    rgb(37, 70, 150),
+    rgb(37, 78, 137),
+    rgb(38, 85, 125),
+    rgb(38, 93, 112),
+    rgb(38, 100, 100),
+    rgb(38, 107, 88),
+    rgb(39, 115, 75),
+    rgb(39, 122, 63)
+  );
+  color: #ffffff;
+
+  opacity: 0.9;
+  /* transform: rotate(360deg); */
+  transition: 3s;
+  transform: scale(0.9);
+  width: min-content;
+}
+
+.third-poem pre {
+  color: #c5c3c3;
+}
+.fourth-poem pre {
+  color: #c5c3c3;
+}
+
+.fourth-poem {
+  background-image: linear-gradient(
+    to right,
+    rgb(41, 128, 41),
+    rgb(43, 122, 56),
+    rgb(46, 115, 71),
+    rgb(48, 109, 85),
+    rgb(50, 103, 100),
+    rgb(52, 97, 115),
+    rgb(55, 90, 130),
+    rgb(57, 84, 145),
+    rgb(59, 78, 160),
+    rgb(61, 72, 174),
+    rgb(64, 65, 189),
+    rgb(66, 59, 204)
+  );
+  color: #c5c3c3;
+
+  opacity: 0.9;
+  transform: rotate(-360deg);
+  transition: 3s;
+  width: min-content;
+}
+
+.fifth-poem {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(33, 163, 59),
+    rgb(35, 154, 69),
+    rgb(37, 144, 80),
+    rgb(40, 135, 90),
+    rgb(42, 126, 100),
+    rgb(44, 117, 111),
+    rgb(46, 107, 121),
+    rgb(48, 98, 132),
+    rgb(50, 89, 142),
+    rgb(53, 80, 152),
+    rgb(55, 70, 163),
+    rgb(57, 61, 173)
+  );
+
+  opacity: 0.9;
+  transition: 3s;
+  /* transform: scale(0.9); */
+  transform: rotate(360deg);
+
+  width: max-content;
+}
+
+.sixth-poem {
+  background-image: radial-gradient(
+    rgb(121, 196, 86),
+    rgb(111, 183, 79),
+    rgb(102, 170, 72),
+    rgb(92, 157, 64),
+    rgb(82, 144, 57),
+    rgb(72, 131, 50),
+    rgb(63, 119, 43),
+    rgb(53, 106, 36),
+    rgb(43, 93, 29),
+    rgb(33, 80, 21),
+    rgb(24, 67, 14),
+    rgb(14, 54, 7)
+  );
+  color: #c5c3c3;
+
+  opacity: 0.9;
+  /* transform: rotate(360deg); */
+  transition: 4s;
+  transform: scale(0.9);
+
+  width: max-content;
+}
+
+.sixth-poem pre {
+  color: #b82525;
+}
+
+.fifth-poem pre {
+  color: #000000f5;
+}
